@@ -4,64 +4,67 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
-        body{
-            background-color: pink;
-        }
-        h3,h1,ul,div{
-            margin: 40px auto;
-            text-align: center;
-        }
-        h1{
-            color: gray;
-        }
-        h3{
-            color: rgb(114, 101, 101);
-        }
-        h3 a{
-            color: rgb(155, 133, 175);
-        }
-        ul li:hover{
-            background-color: rgb(94, 81, 81);
-        }
-        li{
-            list-style-type: none;
-            display: inline-block;
-            margin: 0 10px;
-            background-color: skyblue;
-            padding: 5px;
-            border-radius: 3px;
-            
-        }
-        li a{color: #fff;}
-        a{
-            text-decoration-line: none;
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: 
         }
         div{
-           width: 500px;
-           height: 300px;
-            background-image: url(./images/images.png)
-             }
-
-
-
-
+            width: 500px;
+            height: 80px;
+            border-radius: 5px;
+            margin: 50px auto;
+           padding: 20px;
+        }
+        h2{
+           margin: 10px 0;
+        }
+        .box1{
+            background-color: green;
+            position: relative;
+        }
+        .box2{
+            background-color: blue;
+            position: relative;
+        }
+        .box3{
+            background-color: red;
+            position: relative;
+        }
+        .box4{
+            background-color: orange;
+            position: relative;
+        }
+        em{
+            display: inline-block;
+            position: absolute;
+            top:10px;
+            right: 20px;
+            color: #fff;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>我的项目</h1>
-    <h3>这是我的静态页面项目</h5>
-    <ul>
-        <li> <a href="#">项目1</a> </li>
-        <li> <a href="#">项目2</a> </li>
-        <li> <a href="#">项目3</a> </li>
-        <li> <a href="#">项目4</a> </li>
-        <li> <a href="#">项目5</a> </li>
-    </ul>
-    <div></div>
-    <ul>
-        <li> <a href="">查看源码</a> </li>
-        <li> <a href="">使用说明</a> </li>
-    </ul>
-    <h3>作者：<a href="#">阿猪</a></h5>
+    <div class="box1">
+        <h2>恭喜你</h2>
+        <p>获得本周学渣，加油呀！</p>
+         <em>×</em>
+    </div>
+    <div class="box2">
+        <h2>通知</h2>
+        <p>晚上上课，不要忘啦</p>
+        <em>×</em>
+    </div>
+    <div class="box3">
+        <h2>我的天</h2>
+        <p>好多天没上课了</p>
+        <em>×</em>
+    </div>
+    <div class="box4">
+        <h2>警告</h2>
+        <p>学如逆水行舟，不进则退</p>
+        <em>×</em>
+    </div>
 </body>
 </html>
